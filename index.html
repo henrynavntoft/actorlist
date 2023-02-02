@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-
+  <script src="script.js" defer></script>
   <title>Actorlist // Assignment</title>
 </head>
 
@@ -24,16 +24,21 @@
           <br>
           <p class="movie"></p>
           <br>
-          <div class="dropdown">
-            <h3>Info-></h3>
-            <div class="dropdown-content">
-              <p class="info"></p>
-            </div>
-          </div>
+        </div>
       </template>
 
-    </div>
+      <button id="myBtn">Open Modal</button>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="info"></p>
+        </div>
+      </div>
+
+    </div>
 
 
   </main>
@@ -42,6 +47,6 @@
 
 
 </body>
-<script src="script.js"></script>
+
 
 </html>
