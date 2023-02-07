@@ -21,3 +21,9 @@ function showProduct(actor) {
   //Appending it
   parent.appendChild(clone);
 }
+
+function showModal() {
+  document.querySelector("dropdown-content").style.display = "block";
+  // hide the lorem ipsum text
+  document.querySelector("dropdown-content").style.display = "none";
+}
